@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="favicon" rel="icon" href="assets/WDD22.svg" type="image/svg+xml">
+    <title>Arduino watering system</title>
+    <script src="https://kit.fontawesome.com/00c01f606b.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/projectpage.css"> <!-- Link to your CSS file if you have one -->
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <h4>Arduino watering system</h4>
+        <div class="box">
+            <div class="boxwindowbar">
+                <ul class="window-buttons">
+                    <span>Arduino watering system #01 Final product</span>
+                    <li class="window-button minus"><i class="fa-solid fa-minus"></i></li>
+                    <li class="window-button restore"><i class="fa-regular fa-window-restore"></i></li>
+                    <li class="window-button close"><i class="fa-solid fa-xmark"></i></li>
+                </ul>
+            </div>
+            <div class="topblock">Posted by <span>Dobbenberg</span>, <span>Wouter</span>  on 2024-08-15</div>
+            <div class="textblock">A while ago, I set out to prevent my plants from dying due to overwatering or underwatering. To solve this, I decided to try using Arduino to create a fully automated plant watering system.</div>
+            <div class="textdivider"></div>
+            <div class="textblock">
+                <h5>The Concept</h5>
+                The concept was straightforward: I wanted an automatic watering system for my plants that I could control via my mobile phone or browser. To achieve this, I needed both a web service and a Wi-Fi controllable Arduino board. I wanted the system to run on direct electricity through a power cable and be stationed outside in my garden. To protect the electronics from rain, I built a small casing to keep everything dry.
+                <br><br>
+                Additionally, I aimed to gather data to optimize the watering schedule, including humidity, temperature, and light levels. The water level of the plants was measured using a moisture sensor. Below is a simple representation of the setup, showing the pump, Arduino, and moisture sensor:
+            </div>
+            <div class="imagecontainer rowframe7">
+                <img class="rowimg" src="assets/arduino-automatic-irrigation-system-wiring-diagram-3651545072.jpg" alt="">
+            </div>
+            <div class="textblock">
+                <br>
+                Building the setup was a lot of fun and quite the learning experience. Here are two images of the completed product:
+            </div>
+            <div class="textrow">
+                <div class="imagecontainer tiltshift1">
+                    <img src="assets/arduino.jpg" alt="">
+                </div>
+                <div class="imagecontainer tiltshift2">
+                    <img src="assets/pump.jpg" alt="">
+                </div>
+            </div>
+            <div class="textdivider"></div>
+            <div class="textblock">
+                <h5>Some Problems</h5>
+                During the initial tests, I encountered a few issues, mainly with the pump I used. I initially opted for a submersible pump, but it quickly started failing. It also leaked lubricant into the water supply, which isn’t great for plants. To fix this, I switched to a 12v membrane pump instead of the 5v submersible one. A membrane pump has no submerged components, making it safer for both plants and humans. I also upgraded to a corrosion-resistant moisture sensor to prevent any potential harm to the plants.
+            </div>
+            <div class="textdivider"></div>
+            <div class="textblock">
+                <h5>Results & Future</h5>
+                With the modifications in place, I ran the watering system for one summer, collecting data via an Arduino cloud service called Blynk.
+                <br><br>
+                Unfortunately, I no longer have the code or data stored on my devices, but I plan to continue this project in the future. I want to expand and make it more robust. Some ideas include supporting more plants and making the system more compact by designing my own PCB. I’m also considering using a more powerful pump or leveraging the native water pressure from the tap.
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="js/second.js"></script>
+</html>

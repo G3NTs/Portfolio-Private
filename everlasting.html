@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="favicon" rel="icon" href="assets/WDD22.svg" type="image/svg+xml">
+    <title>Unity horror game - Everlasting Nightmare</title>
+    <script src="https://kit.fontawesome.com/00c01f606b.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/projectpage.css"> <!-- Link to your CSS file if you have one -->
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <h4>Unity horror game - Everlasting Nightmare</h4>
+        <div class="box">
+            <div class="boxwindowbar">
+                <ul class="window-buttons">
+                    <span>Everlasting Nightmare #01 Final product</span>
+                    <li class="window-button minus"><i class="fa-solid fa-minus"></i></li>
+                    <li class="window-button restore"><i class="fa-regular fa-window-restore"></i></li>
+                    <li class="window-button close"><i class="fa-solid fa-xmark"></i></li>
+                </ul>
+            </div>
+            <div class="topblock">Posted by <span>Dobbenberg</span>, <span>Wouter</span>  on 2024-08-14</div>
+            <div class="textblock">During my time at university, I took a game design minor where I got the chance to create my first game using the Unity game engine. My partner and I worked together on this project, and I’m going to share some details about that game here.</div>
+            <div class="textdivider"></div>
+            <div class="textblock">
+                <h5>The Game Concept</h5>
+                Our game is a third-person, top-down horror experience. The player controls a character trapped in darkness, moving around using the WASD keys. To fight the darkness, the player has a flashlight that they control with the mouse. The game takes place in what we called the "nightmare world." To escape, the player must find and collect 10 gems. Once all the gems are collected, the player can leave through a rift in the center of the map, completing the game.
+                <br><br>
+                While searching for gems, the player is hunted by small, one-eyed monsters with tentacles. These creatures lower the player's sanity when they get too close, eventually leading to death. The flashlight can freeze these monsters temporarily, giving the player a chance to escape.
+            </div>
+            <div class="textdivider"></div>
+            <div class="imagecontainer vidpan2">
+                <video id="myVideo" class="vid" width="700" height="100%" controls>
+                    <source src="assets/everlastingvid.mp4" type="video/mp4">
+            </div>
+            <div class="textdivider"></div>
+            <div class="textblock">
+                <h5>The Learning Process</h5>
+                This project was a huge learning experience for both of us. We had to figure out a lot of things from scratch, including:
+                <ul>
+                    <li>
+                        <span>Modeling Static Objects:</span> We created our own models using Maya. One of the objects modeled is the alter.
+                    </li>
+                    <li>
+                        <span>Character Creation:</span> We designed and animated human characters, created UV maps, and made textures.
+                    </li>
+                    <li>
+                        <span>Audio Creation:</span> We used Reaper Studio to make our own sounds and music with synthesizers.
+                    </li>
+                    <li>
+                        <span>FStudio Plugin:</span> We integrated this plugin to allow for dynamic music that changes based on the player’s sanity level.
+                    </li>
+                    <li>
+                        <span>Coding:</span> We wrote all the game code ourselves.
+                    </li>
+                    <li>
+                        <span>Game Design Theory:</span> We took courses on how to develop game concepts and make them appealing to an audience.
+                    </li>
+                </ul>
+            </div>
+            <div class="textdivider"></div>
+            <div class="imagecontainer rowframe2">
+                <img class="rowimg" src="assets/rift.png" alt="">
+            </div>
+            <div class="textdivider"></div>
+            <div class="textblock">
+                <h5>Final Result</h5>
+                Creating our first game was a lot of fun, and we learned so much along the way. If you’re interested, you can download the game from my <a href="https://github.com/G3NTs/EverlastingNightmare/">GitHub</a>. 
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="js/second.js"></script>
+</html>
